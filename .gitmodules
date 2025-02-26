@@ -1,4 +1,5 @@
 [submodule "src/obs-studio"]
-	path = src/obs-studio
+  path = src/obs-studio
 	url = https://github.com/spectrumlive/obs-studio.git
   branch = master
+
