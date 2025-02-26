@@ -10,6 +10,12 @@ With easy operation, anyone can easily make broadcasts and send it stably to var
 
 SPECTRUM Live Studio used the OBS engine as the core module. We would thank all the developers with their wonderful work of OBS project.
 
+## Clone the repository
+```
+git clone git@github.com:spectrumlive/SpectrumLiveStudio.git
+git submodule update --init --recursive
+```
+
 ## BUILD
 #### Before build, please prepare install XCode and QT 6.3.1 version first and set the enviroment variables as:
 ```
@@ -37,3 +43,5 @@ $ cmake --build cmake-build-debug
 3. Type the arguments in the Program arguments field. ...
 4. In the Environment variables field, type the variable name and value: QTIDR=/Users/username/Qt/6.5.3/macos
 
+## OBS-Studio build instruction
+#### can be fond in the below link: https://github.com/obsproject/obs-studio/wiki/Build-Instructions-For-Mac
